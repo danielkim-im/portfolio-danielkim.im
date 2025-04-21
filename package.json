@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "npm rebuild lightningcss",
+    "postinstall": "npm rebuild lightningcss"
   },
   "dependencies": {
     "@react-spring/web": "^9.7.5",
