@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const runtime = "edge";
+
 import SideBar from "@/app/components/SideBar";
 import Footer from "@/app/components/Footer";
 import config from "@/app/config";
@@ -17,8 +20,6 @@ const options = {
   },
 };
 const supabase = createClient(supabaseUrl, supabaseKey, options);
-
-export const dynamic = "force-dynamic";
 
 export default async function ProjectDetail({ params }: Props) {
   const { id } = await params;
