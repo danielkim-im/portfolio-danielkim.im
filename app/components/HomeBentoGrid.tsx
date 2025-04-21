@@ -45,7 +45,15 @@ export default function HomeBentoGrid() {
                 </p>
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
                   # This site is currently under development (mass
-                  framework/backend/ui update/migration)
+                  framework/backend/ui update/migration).{" "}
+                  <a
+                    href="https://github.com/danielkim-im/portfolio-danielkim.im"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    See on GitHub
+                  </a>
                 </p>
               </div>
             </div>
