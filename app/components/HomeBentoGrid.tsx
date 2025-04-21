@@ -41,7 +41,8 @@ export default function HomeBentoGrid() {
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
                   Hi, and welcome! This site is a home for my projects, ideas,
                   and whatever else I have been diving into lately. This site is
-                  also my sandbox where I try out whatever I'm into these days.
+                  also my sandbox where I try out whatever I&apos;m into these
+                  days.
                 </p>
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
                   # This site is currently under development (mass

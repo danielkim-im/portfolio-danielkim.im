@@ -21,7 +21,7 @@ const AboutMePage = () => {
               with a strong interest in data science and ML. Hi, and welcome!
               This site is a home for my projects, ideas, and whatever else I
               have been diving into lately. It is also my sandbox, where I try
-              out whatever I'm into these days.
+              out whatever I&apos;m into these days.
             </p>
 
             <h2>Education</h2>
