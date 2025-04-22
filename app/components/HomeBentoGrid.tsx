@@ -71,8 +71,16 @@ export default function HomeBentoGrid() {
                 <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
                   TTC Transit Delay Prediction Model
                 </p>
-                <p className="mt-0 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                  SDSS Datathon 2025
+                <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
+                  SDSS Datathon 2025{" "}
+                  <a
+                    href="https://github.com/tvirat/Datathon/blob/main/Toronto%20Transportation%20Delay%20Prediction%20Report.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    (Read Report)
+                  </a>
                 </p>
               </div>
               <div className="@container relative min-h-[30rem] w-full grow max-lg:mx-auto max-lg:max-w-sm flex items-center justify-center p-[10%]">
