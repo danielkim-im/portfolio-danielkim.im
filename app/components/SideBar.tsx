@@ -33,11 +33,13 @@ export default function SideBar() {
   return (
     <aside className="fixed top-0 left-0 h-screen w-[240px] z-50 p-6">
       <div className="mb-8 text-center">
-        <img
-          src="https://r2.danielkim.im/common/weblogo_transparent.png"
-          alt="Logo"
-          className="w-full h-auto object-contain bg-transparent"
-        />
+        <Link href="/">
+          <img
+            src="https://r2.danielkim.im/common/weblogo_transparent.png"
+            alt="Logo"
+            className="w-full h-auto object-contain bg-transparent"
+          />
+        </Link>
       </div>
       <nav className="flex flex-col gap-2">
         {links.map(({ name, href, imgSrc }) => (

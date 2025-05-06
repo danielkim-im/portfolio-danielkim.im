@@ -18,12 +18,13 @@ export default function ProjectCard({ project }: { project: Project }) {
         <img
           alt={project.imageAlt}
           src={project.imageSrc}
-          className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80"
+          className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-50"
         />
-        <div className="mt-4">
-          <h3 className="text-sm text-gray-700">{project.title}</h3>
-          <p className="mt-1 text-sm text-gray-500">{project.description}</p>
-          <p className="text-sm font-medium text-gray-900">{project.date}</p>
+        <div className="mt-2.5">
+          <p className="text-sm font-bold">{project.title}</p>
+          <p className="mt-1 text-sm text-gray-500 line-clamp-2">
+            {project.description}
+          </p>
         </div>
       </div>
     </Link>

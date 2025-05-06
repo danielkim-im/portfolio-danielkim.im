@@ -1,6 +1,6 @@
 import config from "../config";
 
-export default function BentoGrid() {
+export default function Footer() {
   return (
     <div
       className="flex flex-row justify-around h-auto pt-[5vh] pb-[5vh]"

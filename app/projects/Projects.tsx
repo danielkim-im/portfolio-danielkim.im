@@ -24,13 +24,7 @@ export default async function Projects() {
         <p className="text-red-500">Failed to load projects: {error.message}</p>
       )}
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-          Recent Projects (beta)
-        </h2>
-        <p>
-          *This page is under development. Improved UI/UX will be delivered asap
-          (final exam season 🥲)
-        </p>
+        <h2 className="text-3xl font-bold tracking-tight">Recent Projects</h2>
 
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {data?.map((project) => (

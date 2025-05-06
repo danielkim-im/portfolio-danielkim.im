@@ -74,12 +74,12 @@ export default function HomeBentoGrid() {
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
                   SDSS Datathon 2025{" "}
                   <a
-                    href="https://github.com/tvirat/Datathon/blob/main/Toronto%20Transportation%20Delay%20Prediction%20Report.pdf"
+                    href="/projects/ttcdelayprediction"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline"
                   >
-                    (Read Report)
+                    (View Project)
                   </a>
                 </p>
               </div>
@@ -112,7 +112,15 @@ export default function HomeBentoGrid() {
                   Project / Reinforcement Learning Agent
                 </p>
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                  UTMIST AI² Tournament
+                  UTMIST AI² Tournament{" "}
+                  <a
+                    href="/projects/rlagent"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    (View Project)
+                  </a>
                 </p>
               </div>
               <div className="@container relative min-h-[30rem] w-full grow max-lg:mx-auto max-lg:max-w-sm flex items-center justify-center p-[10%]">

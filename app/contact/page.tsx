@@ -10,14 +10,8 @@ const ContactPage = () => {
         <SideBar />
         <div className="ml-[240px] w-full min-h-screen">
           <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-            <p>
-              *This page is under development. Improved UI/UX will be delivered
-              asap (final exam season 🥲)
-            </p>
             <div className="flex flex-row justify-around h-auto pt-[5vh] pb-[5vh]">
-              <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-                Contact
-              </h2>
+              <h2 className="text-3xl font-bold tracking-tight">Contact</h2>
               <div>
                 <p>Get in touch</p>
                 <p>
