@@ -59,7 +59,8 @@ export default async function ProjectDetail({ params }: Props) {
           <h1 className="mt-5 text-4xl font-bold text-center tracking-tight">
             {data.title}
           </h1>
-          <p className="mt-5 text-center">{data.date}</p>
+          <p className="mt-5 text-center">{data.collaborators}</p>
+          <p className="mt-5 text-center text-gray-500">{data.date}</p>
           <div className="mt-5 max-w-[75%] mx-auto">
             {data.post_data?.map(
               (
