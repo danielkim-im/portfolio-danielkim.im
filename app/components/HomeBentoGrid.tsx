@@ -62,8 +62,8 @@ export default function HomeBentoGrid() {
           </div>
 
           <div className="relative lg:col-start-2 lg:col-span-2 lg:row-start-1">
-            <div className="absolute inset-px rounded-lg bg-white lg:rounded-tr-[2rem] lg:rounded-bl-none"></div>
-            <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-tr-[calc(2rem+1px)] lg:rounded-bl-none">
+            <div className="absolute inset-px bg-white rounded-tl-[calc(var(--radius-lg))] rounded-bl-[calc(var(--radius-lg))] rounded-br-[calc(var(--radius-lg))] lg:rounded-tr-[2rem]"></div>
+            <div className="relative flex h-full flex-col overflow-hidden rounded-tl-[calc(var(--radius-lg)+1px)] rounded-bl-[calc(var(--radius-lg)+1px)] rounded-br-[calc(var(--radius-lg)+1px)] lg:rounded-tr-[calc(2rem+1px)]">
               <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
                   Latest Project
@@ -101,7 +101,7 @@ export default function HomeBentoGrid() {
                 />
               </div>
             </div>
-            <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5 lg:rounded-tr-[2rem] lg:rounded-bl-none"></div>
+            <div className="pointer-events-none absolute inset-px shadow-sm ring-1 ring-black/5 rounded-tl-[calc(var(--radius-lg))] rounded-bl-[calc(var(--radius-lg))] rounded-br-[calc(var(--radius-lg))] lg:rounded-tr-[2rem]"></div>
           </div>
 
           <div className="relative lg:col-start-1 lg:col-span-2 lg:row-start-2">
