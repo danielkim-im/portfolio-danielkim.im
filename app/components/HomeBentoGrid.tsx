@@ -25,35 +25,35 @@ export default function HomeBentoGrid() {
                   </span>
                   <span className="text-base/7 font-semibold text-indigo-600">
                     <BlurText
-                      text="Data Science Enthusiast"
+                      text="Mathematics at UofT"
                       delay={150}
                       animateBy="words"
                       direction="top"
-                      className="text-2xl"
+                      className="text-xl tracking-tight"
                     />
                   </span>
                 </div>
 
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                  Mathematics and statistics student at the University of
-                  Toronto with a strong interest in data science and ML.
+                  I'm a Mathematics Specialist (Probability & Statistics) at the
+                  University of Toronto with a strong interest in data science
+                  and ML.
                 </p>
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                  Hi, and welcome! This site is a home for my projects, ideas,
-                  and whatever else I have been diving into lately. This site is
-                  also my sandbox where I try out whatever I&apos;m into these
-                  days.
+                  This site is where I share my projects, ideas, and ongoing
+                  explorations—it&apos;s also a sandbox where I experiment with
+                  whatever I&apos;m currently into.
                 </p>
-                <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                  # This site is currently under development (mass
-                  framework/backend/ui update/migration).{" "}
+                <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center italic">
+                  Note: This site is currently under development (major
+                  framework, backend, and UI update/migration).{" "}
                   <a
                     href="https://github.com/danielkim-im/portfolio-danielkim.im"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:underline"
+                    className="text-blue-600 hover:underline italic"
                   >
-                    See on GitHub
+                    View it on GitHub.
                   </a>
                 </p>
               </div>
