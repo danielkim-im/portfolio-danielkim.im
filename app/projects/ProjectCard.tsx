@@ -7,8 +7,7 @@ type Project = {
   title: string;
   description: string;
   date: string;
-  imageSrc: string;
-  imageAlt: string;
+  image_src: string;
 };
 
 export default function ProjectCard({ project }: { project: Project }) {
@@ -16,8 +15,7 @@ export default function ProjectCard({ project }: { project: Project }) {
     <Link href={`/projects/${project.id}`}>
       <div className="group relative cursor-pointer">
         <img
-          alt={project.imageAlt}
-          src={project.imageSrc}
+          src={project.image_src}
           className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-50"
         />
         <div className="mt-2.5">

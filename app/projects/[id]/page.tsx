@@ -51,7 +51,7 @@ export default async function ProjectDetail({ params }: Props) {
         <SideBar />
         <div className="ml-[240px] pb-[5%] w-full min-h-screen bg-white">
           <img
-            src={data.imageSrc}
+            src={data.image_src}
             className="w-full bg-gray-200 object-cover lg:aspect-auto lg:h-120"
           />
 
