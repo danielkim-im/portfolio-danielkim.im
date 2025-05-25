@@ -35,7 +35,7 @@ export default function HomeBentoGrid() {
                 </div>
 
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                  I'm a Mathematics Specialist (Probability & Statistics) at the
+                  I'm a Mathematics (Probability & Statistics) student at the
                   University of Toronto with a strong interest in data science
                   and ML.
                 </p>
