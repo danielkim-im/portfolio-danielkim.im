@@ -7,11 +7,9 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <main className="bg-background">
-      <div className="flex flex-row">
-        <SideBar />
-        <div className="ml-[240px] w-full">
-          <BentoGrid />
-        </div>
+      <SideBar />
+      <div className="md:ml-[240px] pt-[7.5vh] md:pt-0">
+        <BentoGrid />
       </div>
       <Footer />
     </main>

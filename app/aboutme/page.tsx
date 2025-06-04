@@ -7,7 +7,7 @@ const AboutMePage = () => {
     <main className="bg-background">
       <div className="flex flex-row">
         <SideBar />
-        <div className="ml-[240px] w-full min-h-screen">
+        <div className="md:ml-[240px] w-full min-h-screen pt-[5vh] md:pt-0">
           <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
             <h2 className="text-3xl font-bold tracking-tight">About me</h2>
             <p className="mt-2.5">
@@ -15,8 +15,7 @@ const AboutMePage = () => {
               University of Toronto with a strong interest in data science and
               ML.
             </p>
-
-            <h2 className="text-2xl mt-10 font-bold tracking-tight">
+            <h2 className="text-xl mt-10 font-bold tracking-tight">
               Education
             </h2>
             <span>
@@ -27,8 +26,7 @@ const AboutMePage = () => {
               </p>
               <p className="text-sm text-gray-500">Sep 2024 - Jun 2028</p>
             </span>
-
-            <h2 className="text-2xl mt-10 font-bold tracking-tight">
+            <h2 className="text-xl mt-10 font-bold tracking-tight">
               Certifications
             </h2>
             <div className="mt-2.5">
@@ -40,8 +38,7 @@ const AboutMePage = () => {
                 Credential ID KL6I6KOSJ5CQ
               </p>
             </div>
-
-            <h2 className="text-2xl mt-10 font-bold tracking-tight">
+            <h2 className="text-xl mt-10 font-bold tracking-tight">
               Experience
             </h2>
             <div>

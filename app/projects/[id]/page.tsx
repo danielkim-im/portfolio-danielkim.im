@@ -49,18 +49,22 @@ export default async function ProjectDetail({ params }: Props) {
     <main className="bg-background">
       <div className="flex flex-row">
         <SideBar />
-        <div className="ml-[240px] pb-[5%] w-full min-h-screen bg-white">
+        <div className="pt-0 md:ml-[240px] pb-[5%] w-full min-h-screen bg-white">
           <img
             src={data.image_src}
             className="w-full bg-gray-200 object-cover lg:aspect-auto lg:h-120"
           />
 
           <p className="mt-5 text-center">{data.affiliation}</p>
-          <h1 className="mt-5 text-4xl font-bold text-center tracking-tight">
+          <h1 className="mt-5 max-w-[75%] mx-auto text-4xl font-bold text-center tracking-tight">
             {data.title}
           </h1>
-          <p className="mt-5 text-center">{data.collaborators}</p>
-          <p className="mt-5 text-center text-gray-500">{data.date}</p>
+          <p className="mt-5 max-w-[75%] mx-auto text-center">
+            {data.collaborators}
+          </p>
+          <p className="mt-5 max-w-[75%] mx-auto text-center text-gray-500">
+            {data.date}
+          </p>
           <div className="mt-5 max-w-[75%] mx-auto">
             {data.post_data?.map(
               (

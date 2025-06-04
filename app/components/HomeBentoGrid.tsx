@@ -13,25 +13,21 @@ export default function HomeBentoGrid() {
                 <p className="mt-2 mb-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
                   Who I am
                 </p>
-                <div className="mt-2">
-                  <span className="max-w-lg mx-auto text-4xl font-semibold tracking-tight text-balance text-gray-950 sm:text-5xl">
-                    <BlurText
-                      text="Euichan Kim (Daniel)"
-                      delay={150}
-                      animateBy="words"
-                      direction="top"
-                      className="text-2xl"
-                    />
-                  </span>
-                  <span className="text-base/7 font-semibold text-indigo-600">
-                    <BlurText
-                      text="Mathematics at UofT"
-                      delay={150}
-                      animateBy="words"
-                      direction="top"
-                      className="text-xl tracking-tight"
-                    />
-                  </span>
+                <div className="mt-2 max-lg:flex max-lg:flex-col max-lg:items-center">
+                  <BlurText
+                    text="Euichan Kim (Daniel)"
+                    delay={150}
+                    animateBy="words"
+                    direction="top"
+                    className="inline-block text-2xl tracking-tight font-semibold text-gray-950 text-center"
+                  />
+                  <BlurText
+                    text="Mathematics at UofT"
+                    delay={150}
+                    animateBy="words"
+                    direction="top"
+                    className="inline-block text-xl tracking-tight font-semibold text-indigo-600"
+                  />
                 </div>
 
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
@@ -108,8 +104,11 @@ export default function HomeBentoGrid() {
             <div className="absolute inset-px rounded-lg bg-white lg:rounded-bl-[2rem]"></div>
             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-bl-[calc(2rem+1px)]">
               <div className="px-8 pt-8 sm:px-10 sm:pt-10">
+                <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
+                  Project
+                </p>
                 <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                  Project / Reinforcement Learning Agent
+                  Reinforcement Learning Agent
                 </p>
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
                   UTMIST AI² Tournament{" "}
