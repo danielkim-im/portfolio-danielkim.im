@@ -1,20 +1,43 @@
 import React from "react";
-import SideBar from "../components/SideBar";
-import Projects from "./Projects";
-import Footer from "../components/Footer";
+import { createClient } from "@supabase/supabase-js";
+import config from "../config";
+import ProjectCard from "../components/ProjectCard";
 
-const ProjectsPage = () => {
+const supabaseUrl = config.supabaseUrl;
+const supabaseKey = config.supabaseKey;
+const options = {
+  db: {
+    schema: "public",
+  },
+};
+const supabase = createClient(supabaseUrl, supabaseKey, options);
+
+export async function ProjectsPage() {
+  const { data, error } = await supabase
+    .from("project")
+    .select()
+    .order("date", { ascending: false });
   return (
-    <main className="bg-backgroundpt-0">
-      <div className="flex flex-row md:ml-[240px] pt-[5vh] md:pt-0">
-        <SideBar />
-        <div className="w-full">
-          <Projects />
+    <main
+      className="bg-background min-h-screen
+          md:ml-auto
+          md:h-screen md:overflow-y-scroll
+          md:p-25 p-10 md:pl-12.5 gap-10 flex flex-col "
+    >
+      {error && (
+        <p className="text-red-500">Failed to load projects: {error.message}</p>
+      )}
+      <div className="md:max-w-[50vw] mx-auto">
+        <h2 className="text-3xl font-bold tracking-tight">Recent Projects</h2>
+
+        <div className="">
+          {data?.map((project) => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
         </div>
       </div>
-      <Footer />
     </main>
   );
-};
+}
 
 export default ProjectsPage;

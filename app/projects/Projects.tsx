@@ -1,5 +1,5 @@
 import { createClient } from "@supabase/supabase-js";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 import config from "../config";
 
 const supabaseUrl = config.supabaseUrl;
@@ -13,9 +13,8 @@ const supabase = createClient(supabaseUrl, supabaseKey, options);
 
 export default async function Projects() {
   const { data, error } = await supabase
-    .from("projects")
+    .from("project")
     .select()
-    .eq("public", true)
     .order("date", { ascending: false });
 
   return (
