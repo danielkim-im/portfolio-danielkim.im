@@ -13,20 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Euichan Kim (Daniel)",
-  description: "Mathematics at University of Toronto",
+  title: "Daniel Kim - Portfolio",
+  description: "Math & Stats @ University of Toronto",
   openGraph: {
-    title: "Euichan Kim (Daniel)",
-    description:
-      "Mathematics student at the University of Toronto - Data Science Enthusiast",
+    title: "Daniel Kim - Portfolio",
+    description: "Math & Stats @ University of Toronto",
     url: "https://danielkim.im",
-    siteName: "Euichan Kim's Portfolio",
+    siteName: "Daniel Kim - Portfolio",
     images: [
       {
-        url: "https://r2.danielkim.im/common/preview.png",
+        url: "https://r2.danielkim.im/common/preview_v2.png",
         width: 1200,
         height: 630,
-        alt: "Euichan Kim Portfolio Preview Image",
+        alt: "Daniel Kim Portfolio Preview Image",
       },
     ],
     type: "website",
